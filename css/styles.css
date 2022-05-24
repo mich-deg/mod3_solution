@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+#nav-header {
+  background-color: lightblue;
+  border-radius: 0;
+  border: 0;
+}
+#nav-brand {
+  font-weight: 900;
+}
+#our-menu {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+/* .dropdown-menu {
+  background-color: chocolate;
+  border: 1px solid black;
+  width: 100%;
+} */
+.nav > li {
+  border: 1px solid black;
+  text-align: center;
+  background-color: white;
+}
+#content {
+  background-color: lightgrey;
+  padding: 20px;
+  margin: 20px;
+}
+#chicken {
+  margin-top: 0;
+}
+
+@media (max-width: 767px) {
+  #content {
+    margin: 0 8rem;
+  }
+}
